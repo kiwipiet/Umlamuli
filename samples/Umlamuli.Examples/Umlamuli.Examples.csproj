@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>Umlamuli.Examples</AssemblyName>
+    <RootNamespace>Umlamuli.Examples</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Umlamuli\Umlamuli.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,7 +1,8 @@
 <Project>
   <PropertyGroup>
-    <LangVersion>10.0</LangVersion>
-    <NoWarn>$(NoWarn);CS1701;CS1702;CS1591</NoWarn>
+    <LangVersion>Latest</LangVersion>
+    <NoWarn>$(NoWarn)</NoWarn>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <RootNamespace>Umlamuli</RootNamespace>
   </PropertyGroup>
 </Project>

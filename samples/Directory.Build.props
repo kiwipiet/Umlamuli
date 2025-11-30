@@ -1,0 +1,7 @@
+<Project>
+  <PropertyGroup>
+    <NoWarn>$(NoWarn);CA2000</NoWarn>
+	<LangVersion>Latest</LangVersion>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+</Project>
