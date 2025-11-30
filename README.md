@@ -1,4 +1,4 @@
-Umlamuli
+﻿Umlamuli
 =======
 
 ![CI](https://github.com/Umlamuli/Umlamuli/workflows/CI/badge.svg)
@@ -10,7 +10,7 @@ Umlamuli
 Umlamuli is an open-source continuation of the MediatR library.  MediatR has changed it licence to a commercial one starting with version 13.
 I have complete respect for Jimmy Bogard and the work he has done on MediatR, but I want to keep using an open-source mediator library.  I also feel that the Mediator pattern is a useful one to have available in .NET projects, but as it is fairly simple to implement, I have decided to create this fork and maintain it going forward.
 
-[Umlamuli](https://isizulu.net/?umlamuli) [umla?mu?li] is a Zulu word,  means "mediator" or "arbiter".
+[Umlamuli](https://isizulu.net/?umlamuli) [umlaˈmuːli] is a Zulu word,  means "mediator" or "arbiter".
 I'm not a native Zulu speaker, so if I've made any mistakes with the name, please let me know!
 
 This should be a drop-in replacement for MediatR v12.5.0.  The namespaces and package names have been changed from MediatR to Umlamuli.
