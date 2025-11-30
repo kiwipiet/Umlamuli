@@ -14,8 +14,10 @@ public class MultiRuntimeConfig : ManualConfig
 {
     public MultiRuntimeConfig()
     {
+        // These settings show that by upgrading to newer runtimes gives significant performance improvements.
+
         // Runtimes
-        AddJob(Job.Default.WithRuntime(ClrRuntime.Net472));
+        AddJob(Job.Default.WithRuntime(ClrRuntime.Net462));
         AddJob(Job.Default.WithRuntime(CoreRuntime.Core80));
         AddJob(Job.Default.WithRuntime(CoreRuntime.Core90));
         AddJob(Job.Default.WithRuntime(CoreRuntime.Core10_0));
@@ -34,6 +36,10 @@ public class MultiRuntimeConfig : ManualConfig
         // AddExporter(RPlotExporter.Default);
 
         AddDiagnoser(MemoryDiagnoser.Default);
+        //AddDiagnoser(new InliningDiagnoser());
+        //AddDiagnoser(new EtwProfiler());
+        //AddDiagnoser(ThreadingDiagnoser.Default);
+        //AddDiagnoser(ExceptionDiagnoser.Default);
 
         // Combine results if you run multiple times:
         WithOptions(ConfigOptions.JoinSummary);

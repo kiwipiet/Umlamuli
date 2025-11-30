@@ -5,7 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace Umlamuli.Benchmarks;
 
-[DotTraceDiagnoser]
+//[DotTraceDiagnoser]
 public class Benchmarks
 {
     private IMediator _mediator;
